@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #2f2519;
+  font-size: 1.4rem;
+}
+
+body, #quoteInput {
+  font-family:  sans-serif;
+}
+
+.container {
+  background-color: #6e5773;
+  color: #fff;
+  padding: 2rem;
+  width: 500px;
+  max-width: 90%;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#timer {
+  position: absolute;
+  color: #fff;
+  top: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#quote {
+  margin-bottom: 1rem;
+  margin-left: calc(1rem + 2px);
+  margin-right: calc(1rem + 2px);
+}
+
+#quoteInput {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #A1922E;
+  outline: none;
+  width: 100%;
+  height: 8rem;
+  margin: auto;
+  resize: none;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border-radius: .5rem;
+}
+
+#quoteInput:focus {
+  border-color: black;
+}
+
+.correct {
+  color: #79d70f;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
+.footer .text-center{
+  font-size: 1rem;
+  padding-top:2rem;
+}
+.footer .text-center a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 420px){
+  body{
+    font-size: 1.2rem;
+  }
+  .container{
+    padding: 1rem;
+  }
+}
