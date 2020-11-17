@@ -1,1 +1,1 @@
-# TypingPro
+# Typing Pro Application
